@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # == Route Map
 #
 #                   Prefix Verb   URI Pattern                       Controller#Action
@@ -48,6 +49,9 @@
 #
 
 Bricks::Application.routes.draw do
+=======
+Mapsbrick::Application.routes.draw do
+>>>>>>> cbc93d0c0afb0b7679cd91791c404be9f1cfae3e
   root "pages#home"
   get "home", to: "pages#home", as: "home"
   get "inside", to: "pages#inside", as: "inside"

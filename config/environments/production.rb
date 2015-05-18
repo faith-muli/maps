@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Bricks::Application.configure do
+=======
+Mapsbrick::Application.configure do
+>>>>>>> cbc93d0c0afb0b7679cd91791c404be9f1cfae3e
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SQLite version 3.x
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
@@ -6,3 +7,17 @@ development:
   database: db/development.sqlite3
   pool: 5
   timeout: 5000
+=======
+# PostgreSQL
+#   Ensure the PostgreSQL gem is defined in your Gemfile
+#   gem 'pg'
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: maps_development
+  username: faith
+  host: localhost
+  pool: 5
+  port: 5432
+  password: none
+>>>>>>> cbc93d0c0afb0b7679cd91791c404be9f1cfae3e

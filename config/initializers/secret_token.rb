@@ -22,4 +22,8 @@ def secure_token
   end
 end
 
+<<<<<<< HEAD
 Bricks::Application.config.secret_key_base = secure_token
+=======
+Mapsbrick::Application.config.secret_key_base = secure_token
+>>>>>>> cbc93d0c0afb0b7679cd91791c404be9f1cfae3e

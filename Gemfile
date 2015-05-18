@@ -41,10 +41,15 @@ group :development, :test do
 end
 
 
+<<<<<<< HEAD
 # SQLite 3
 group :development, :test do
   gem 'sqlite3', '1.3.10'
 end
+=======
+# PostgreSQL
+gem 'pg'
+>>>>>>> cbc93d0c0afb0b7679cd91791c404be9f1cfae3e
 
 # Devise: https://github.com/plataformatec/devise
 gem 'devise', '3.4.1'
@@ -52,7 +57,19 @@ gem 'devise', '3.4.1'
 # Redcarpet: https://github.com/vmg/redcarpet
 gem 'redcarpet', '3.2.3'
 
+<<<<<<< HEAD
 # Unicorn: http://unicorn.bogomips.org
 group :production do
   gem 'unicorn'
 end
+=======
+# Rails 12factor for Heroku: https://github.com/heroku/rails_12factor
+group :production do
+  gem 'rails_12factor'
+end
+
+# Unicorn: http://unicorn.bogomips.org
+group :production do
+  gem 'unicorn'
+end
+>>>>>>> cbc93d0c0afb0b7679cd91791c404be9f1cfae3e

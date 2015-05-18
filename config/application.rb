@@ -6,7 +6,11 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
+<<<<<<< HEAD
 module Bricks
+=======
+module Mapsbrick
+>>>>>>> cbc93d0c0afb0b7679cd91791c404be9f1cfae3e
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers

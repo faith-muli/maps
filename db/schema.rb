@@ -11,9 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20141010133702) do
 
   create_table "friendly_id_slugs", force: :cascade do |t|
+=======
+ActiveRecord::Schema.define(version: 20131103142222) do
+
+  create_table "friendly_id_slugs", force: true do |t|
+>>>>>>> cbc93d0c0afb0b7679cd91791c404be9f1cfae3e
     t.string   "slug",                      null: false
     t.integer  "sluggable_id",              null: false
     t.string   "sluggable_type", limit: 50
@@ -26,6 +32,7 @@ ActiveRecord::Schema.define(version: 20141010133702) do
   add_index "friendly_id_slugs", ["sluggable_id"], name: "index_friendly_id_slugs_on_sluggable_id"
   add_index "friendly_id_slugs", ["sluggable_type"], name: "index_friendly_id_slugs_on_sluggable_type"
 
+<<<<<<< HEAD
   create_table "posts", force: :cascade do |t|
     t.string   "title"
     t.text     "content_md"
@@ -68,4 +75,6 @@ ActiveRecord::Schema.define(version: 20141010133702) do
   add_index "users", ["slug"], name: "index_users_on_slug", unique: true
   add_index "users", ["username"], name: "index_users_on_username", unique: true
 
+=======
+>>>>>>> cbc93d0c0afb0b7679cd91791c404be9f1cfae3e
 end
